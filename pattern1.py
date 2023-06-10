@@ -26,3 +26,7 @@ else:
     for i in range(a-b+1):
         total=total+i+b
 print("aからbまでの整数の和:", total)
+
+#べき乗
+print("aのべき乗:", a ** b)
+print("bのべき乗:", b ** a)
