@@ -1,7 +1,15 @@
+import math
+
+#数字入力
 a = int(input('1つ目の数字を入力してください。:'))
 b = int(input('2つ目の数字を入力してください。:'))
 
+#四則演算
 print("a + b =", a + b)
 print("a - b =", a - b)
 print("a * b =", a * b)
 print("a / b =", a / b)
+
+#最小公倍数と最大公約数
+print("最小公倍数:", math.lcm(a,b))
+print("最大公約数:", math.gcd(a,b))
