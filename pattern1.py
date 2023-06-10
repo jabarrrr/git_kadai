@@ -13,3 +13,6 @@ print("a / b =", a / b)
 #最小公倍数と最大公約数
 print("最小公倍数:", math.lcm(a,b))
 print("最大公約数:", math.gcd(a,b))
+
+#剰余
+print("a / b の余り:", a % b)
