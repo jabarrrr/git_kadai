@@ -16,3 +16,13 @@ print("最大公約数:", math.gcd(a,b))
 
 #剰余
 print("a / b の余り:", a % b)
+
+#aとbの間に存在する整数の和
+total=0
+if b>=a:
+    for i in range(b-a+1):
+        total=total+i+a
+else:
+    for i in range(a-b+1):
+        total=total+i+b
+print("aからbまでの整数の和:", total)
