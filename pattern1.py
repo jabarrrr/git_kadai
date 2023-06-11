@@ -1,4 +1,5 @@
 import math
+from sympy import sieve
 
 #数字入力
 a = int(input('1つ目の数字を入力してください。:'))
@@ -30,3 +31,6 @@ print("aからbまでの整数の和:", total)
 #べき乗
 print("aのべき乗:", a ** b)
 print("bのべき乗:", b ** a)
+
+#素数判定
+print("aからbまでの素数:", [i for i in sieve.primerange(a,b)])
