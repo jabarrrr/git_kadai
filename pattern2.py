@@ -1,7 +1,7 @@
 import random
 
 ans=random.randint(100,999)
-max_count=5
+max_count=10
 print('3桁の数字の中から一つ選んだよ。')
 print('その数字を',max_count,'回以内に当ててね。')
 
