@@ -33,4 +33,7 @@ print("aのべき乗:", a ** b)
 print("bのべき乗:", b ** a)
 
 #素数判定
-print("aからbまでの素数:", [i for i in sieve.primerange(a,b)])
+if a<=b:
+    print("aからbまでの素数:", [i for i in sieve.primerange(a,b)])
+else:
+    print("bからaまでの素数:", [i for i in sieve.primerange(b,a)])
